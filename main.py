@@ -7,7 +7,7 @@ app = Flask(__name__)
 def samokat():
     return render_template('index.html')
 
-@app.route("/3-2")
+@app.route("/second_page")
 def obut():
     return render_template('3-2.html')
 
