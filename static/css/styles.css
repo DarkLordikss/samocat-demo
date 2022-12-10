@@ -74,11 +74,12 @@ header {
 }
 
 .achives {
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
-.photo {
-    z-index: 0;
+.achives2 {
+    padding-top: 50px;
+    padding-bottom: 400px;
 }
 
 .quest {
