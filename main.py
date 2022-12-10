@@ -19,5 +19,15 @@ def third_page():
     return render_template('quest_1.html')
 
 
+@app.route("/achive")
+def fourth_page():
+    return render_template('achive.html')
+
+
+@app.route("/help")
+def help():
+    return render_template('help.html')
+
+
 if __name__ == "__main__":
     app.run(debug="on")

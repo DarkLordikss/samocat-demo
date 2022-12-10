@@ -23,25 +23,24 @@
   <body>
 
 <header class="position-fixed">
-  <div class="navbar navbar-dark bg-samokat shadow-sm">
-    <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <img class="px-2" width="100%" height="30" src="{{ url_for('static', filename= 'resourses/medal.png') }}">
-        <strong>Достижения</strong>
-      </a>
+  <div class="navbar navbar-dark bg-samokat shadow-sm container-fluid">
+    <div class="container d-flex justify-content-between">
+      <a style="text-decoration: none;" href="/"><img class="px-2" height="30" src="{{ url_for('static', filename= 'resourses/arrow.png') }}"></a>
+      <a style="text-decoration: none;" href="/"><strong class="text-white">Темы</strong></a>
+      <a style="text-decoration: none;" href="/epic_1"><strong class="text-white">Текущие квесты</strong></a>
+      <a style="text-decoration: none;" href="/achive"><strong class="text-white">Достижения</strong></a>
+      <a style="text-decoration: none;" href="/help"><img class="px-2" height="30" src="{{ url_for('static', filename= 'resourses/question.png') }}"></a>
+
     </div>
   </div>
 </header>
 
 <main class="bg-light">
- <div class="achives album py-10 bg-light">
+ <div class="achives2 album py-10 bg-light">
     <div class="container">
-
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-
-
             <div class="card-body">
               <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
@@ -56,32 +55,26 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
@@ -89,48 +82,39 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
@@ -138,48 +122,39 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="col">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h3 class="card-text">Обжора</h3>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
+                </div>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <h3 class="card-text">Обжора</h3>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="/epic_1/quest_1" class="btn btn-sm btn-outline-secondary">Посмотреть</a>
                 </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">3 hours</small>
               </div>
             </div>
           </div>
@@ -187,15 +162,6 @@
       </div>
     </div>
   </div>
-  <section id="noun" class="py-5 text-center container">
-        <div>
-          <button class="navbar-toggler">
-            <a href="/" class="col-sm btn btn-primary btn-samokat my-2">Назад</a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer class="text-muted py-2 bg-samokat">
