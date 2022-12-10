@@ -9,8 +9,13 @@ def first_page():
     return render_template('index.html')
 
 
-@app.route("/quest_1")
+@app.route("/epic_1")
 def second_page():
+    return render_template('epic_1.html')
+
+
+@app.route("/epic_1/quest_1")
+def third_page():
     return render_template('quest_1.html')
 
 
