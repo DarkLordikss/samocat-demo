@@ -29,5 +29,10 @@ def help():
     return render_template('help.html')
 
 
+@app.route("/promo")
+def promo():
+    return render_template('promo.html')
+
+
 if __name__ == "__main__":
-    app.run(debug="on")
+    app.run(debug=True)
