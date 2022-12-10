@@ -1,11 +1,15 @@
-$(document).ready(function() { // Ждём загрузки страницы
-
-$(".cart__open").click(function() {
-     $(".cart").css('display', 'block');
-});
-
-$(".cart__close").click(function() {
-     $(".cart").css('display', 'none');
-});
-
-});
+function buttonGreen1() {
+    var element = document.getElementById("b1");
+    element.classList.add("green");
+    element.textContent = "Подтверждено"
+}
+function buttonGreen2() {
+    var element = document.getElementById("b2");
+    element.classList.add("green");
+    element.textContent = "Подтверждено"
+}
+function buttonGreen3() {
+    var element = document.getElementById("b3");
+    element.classList.add("green");
+    element.textContent = "Подтверждено"
+}

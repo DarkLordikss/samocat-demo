@@ -89,3 +89,23 @@ header {
 .modal {
     z-index: 11000;
 }
+
+.green {
+    --bs-btn-bg: #2ECC40 !important;
+    --bs-btn-border-color: #2ECC40 !important;
+}
+
+.tx {
+    border-color: var(--bs-btn-border-width) solid var(--bs-btn-border-color) !important;
+    opacity: 1 !important;
+    background-color: #FF4846 !important;
+    border-color: #FF4846 !important;
+}
+.name {
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+}
+.promo {
+    padding-bottom: 30px;
+}
