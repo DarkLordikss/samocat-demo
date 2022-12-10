@@ -84,3 +84,7 @@ header {
 .quest {
     z-index:10100;
 }
+
+.modal {
+    z-index: 11000;
+}

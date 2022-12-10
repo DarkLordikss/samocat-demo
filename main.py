@@ -9,9 +9,9 @@ def first_page():
     return render_template('index.html')
 
 
-@app.route("/second_page")
+@app.route("/quest_1")
 def second_page():
-    return render_template('3-2.html')
+    return render_template('quest_1.html')
 
 
 if __name__ == "__main__":
